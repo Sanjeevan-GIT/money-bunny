@@ -1,0 +1,22 @@
+# SQLite database (auto-generated)
+/data/moneybunny.db
+/data/moneybunny.db-*
+/data/auth_rate_limit.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Env overrides and local archives (may contain live DB or credentials)
+.env
+config.local.php
+*.zip
+
+# Temporary prod diagnostics (delete after use)
+/db-check.php
+/scripts/db-health.php

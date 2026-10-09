@@ -1,0 +1,19 @@
+<?php
+/**
+ * Production overrides — copy to config.local.php (do not commit secrets).
+ * Return an array merged over config.php defaults.
+ *
+ * Some hosts only accept MySQL connections from the web server.
+ * Local php -S falls back to SQLite when MySQL is unreachable.
+ */
+return [
+    'DB_DRIVER' => 'mysql',
+    'DB_MYSQL_HOST' => 'localhost',
+    'DB_MYSQL_PORT' => 3306,
+    'DB_MYSQL_NAME' => 'your_database_name',
+    'DB_MYSQL_USER' => 'your_mysql_user',
+    'DB_MYSQL_PASS' => 'your_mysql_password',
+    'AUTH_SECRET' => 'long-random-secret-here',
+    // Optional: 'AUTH_TOKEN_TTL' => 604800, // 7 days
+    // Optional: 'ALLOW_PIN_REMOVAL' => false,
+];

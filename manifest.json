@@ -1,0 +1,55 @@
+{
+    "name": "Money Bunny",
+    "short_name": "MoneyBunny",
+    "description": "Personal expense tracker I built for my own use.",
+    "start_url": "./index.php",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#030712",
+    "theme_color": "#166534",
+    "categories": ["finance", "productivity"],
+    "shortcuts": [
+        {
+            "name": "Add expense",
+            "short_name": "Add",
+            "url": "./index.php#dashboard",
+            "description": "Quickly log a new expense",
+            "icons": [
+                {
+                    "src": "assets/icons/bill-bunny-logo.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Statistics",
+            "short_name": "Stats",
+            "url": "./index.php#statistics",
+            "description": "View spending charts and insights",
+            "icons": [
+                {
+                    "src": "assets/icons/bill-bunny-logo.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ],
+    "icons": [
+        {
+            "src": "assets/icons/bill-bunny-logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/icons/bill-bunny-logo.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "screenshots": [],
+    "prefer_related_applications": false
+}

@@ -1,0 +1,2 @@
+# SQLite database directory - must be writable by PHP
+# chmod 755 data && chmod 664 data/moneybunny.db (after first run)
